@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="stylesheet" href="calculadora.css"/>
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+		<script type="text/javascript" src="calculadora.js"></script>
+		<script type="text/javascript" src="calculadoraUtil.js"></script>
+
+		<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+		<title>Calculadora</title>
+	</head>
+	<body>
+		<center>
+			<form name="form">
+				<div class="row">
+					<div  class="col-md-4">
+						<h1>Calculadora</h1>
+					</div>
+				</div>
+				<div class="form-group row">
+					<label for="txt1" class="col-md-2 col-form-label">Valor 1  </label>
+					<input type="text" class="col-md-2 form-control" id="txt1">
+				</div>
+				<div class="form-group row">
+					<label for="txt2" class="col-md-2 col-form-label">Valor 2  </label>
+					<input type="text" class="col-md-2 form-control" id="txt2">
+				</div>
+				<div class="form-group row">
+					<label for="result" class="col-md-2 col-form-label">Resultado  </label>
+					<input type="text" class="col-md-2 form-control" id="result">
+				</div>
+				<div class="form-group row">
+					<input type="button" class="btn btn-primary col-md-1" onClick="suma()" value="+">
+					<input type="button" class="btn btn-primary col-md-1" onClick="resta()" value="-">
+					<input type="button" class="btn btn-primary col-md-1" onClick="multiplica()" value="x">
+					<input type="button" class="btn btn-primary col-md-1" onClick="divide()" value="/">
+				</div>
+			</form>
+		</center>
+	</body>
+</html>
