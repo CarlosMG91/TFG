@@ -1,0 +1,29 @@
+{
+  "name": "TFG_CMG",
+  "version": "1.0.0",
+  "description": "Trabajo de fin de grado Carlos Múgica Gómez",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha  ",
+    "start": "nodemon --inspect index.js",
+    "debug": "nodemon index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt-nodejs": "0.0.3",
+    "body-parser": "^1.18.3",
+    "chai": "^4.2.0",
+    "connect-multiparty": "^2.2.0",
+    "express": "^4.16.4",
+    "jwt-simple": "^0.5.5",
+    "mocha": "^6.1.4",
+    "moment": "^2.24.0",
+    "mongoose": "^5.4.9",
+    "mongoose-pagination": "^1.0.0",
+    "sinon": "^7.4.2"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.9"
+  }
+}
