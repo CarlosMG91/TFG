@@ -23,6 +23,6 @@ describe("Calculadora", function() {
 
   it("Si se intenta dividir por 0, devuelve NaN", function() {
     var resultado = calculadora.funcionDividir(15, 0);
-    expect(resultado).toEqual('NaN');
+    expect(resultado).toEqual(NaN);
   });
 });
