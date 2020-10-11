@@ -1,0 +1,28 @@
+{
+  "name": "calculadora-node",
+  "version": "1.0.0",
+  "description": "Calculadora de prueba",
+  "main": "Core/src/index.js",
+  "scripts": {
+    "start": "nodemon Core/src/index.js",
+    "test": "ava"
+  },
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MugicaStyle/carlosmg-tfg.git"
+  },
+  "keywords": [
+    "nodejs"
+  ],
+  "author": "Carlos Múgica Gómez",
+  "license": "ISC",
+  "bugs": {},
+  "homepage": "",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "ava": "2.4.0"
+  }
+}
