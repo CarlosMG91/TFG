@@ -18,6 +18,8 @@ function divide(valor1, valor2){
 	if(!esNumero(valor1) ||!esNumero(valor2)){
 		return 0;
 	}
+	if(valor2 == 0)
+		return NaN;
 	return valor1/valor2;
 }
 
