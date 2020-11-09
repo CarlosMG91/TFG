@@ -9,7 +9,7 @@ var beerFactory = require('./testFactories/beerFactory');
 var request, response, beerStub, populateStub, errorPopulateStub,notFoundPopulateStub, sendCallback, error;
 var responseStub;
 var saveStub;
-
+/*
 describe.skip('beerController tests', function(){
 	
 	describe('save function', function(){
@@ -157,4 +157,4 @@ describe.skip('beerController tests', function(){
 	})
 
 
-})
+})*/
